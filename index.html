@@ -1,0 +1,92 @@
+<DOCTYPE html>
+<html lang ="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Google</title>
+	<link rel="stylesheet" href="reset.css" type="text/css"> 
+	<link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+
+<!-- BODY WRAPPER FOR PAGE POSITIONING-->
+
+<body class="wrapper">
+	
+
+	<!-- HEADER WITH SIGN IN ICONS AND LINKS -->
+
+	<header>
+		<div id="head">
+			<div id="righthead">
+				<div id="you"><a href="https://plus.google.com/?gpsrc=ogpy0&tab=wX">+You</a></div>
+				<div id="gmail"><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></div>
+				<div id="images"><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=aVjtUuCYCYb4yQHm8YGoBQ&ved=0CAQQqi4oAg">Images</a></div>
+				<div id="apps"><a href="http://www.google.com/intl/en/options/"><img src="images/grid.png"></a></div>
+				<div id="signinbutton"><a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/"><span id="white">Sign in</span></a></div>		
+			</div>
+		</div>
+	</header>
+
+	<!--GOOGLE LOGO -->
+
+	<section>
+		<div id="logo"><img src="images/google-logo.png" id="google" /></div>
+	</section>
+
+	<!--SEARCH BOX WITH MICROPHONE ICON -->
+
+	<section> 
+		<div id="searchbox">
+			<form name="input" action="http://www.google.com/cse" method="get"/>
+				<input type="hidden" name="x" value="UTF-8"/>
+				<input id="field" name="q" type="text" maxlength="200" size="100" height="25" style="background-color:transparent;border:0px solid white"/>
+			<div id="mic"><img src="images/microphone.png" height="25px" width="auto" /></div>
+
+			<!--- <div id="searchbuttons">
+			
+			
+			TRIED ASSIGNING AS BUTTON AND MESSED UP BUTTON STYLING AND POSITIONING OF BOTH BUTTONS
+
+
+			<button type="submit" id="googlebutton" class="button">Google Search</button> -->
+			
+			<!-- TRIED THIS TOO AND DIDN'T WORK EITHER 
+			<div id="googlebutton" class="button">Google Search</div>
+			<div id="luckybutton" class="button">I'm Feeling Lucky</div>
+			</div>
+
+			-->
+
+			</form>
+		</div>
+	</section> 
+	
+	<!--SEARCH BUTTONS BELOW SEARCH BOX -->
+
+	<section>
+		<div id="searchbuttons">
+			<div id="googlebutton" class="button"><a href="http://www.google.com#?">Google Search</a></div>
+			<div id="luckybutton" class="button">I'm Feeling Lucky</div>
+		</div>
+	</section> 
+		
+	<!--FOOTER WITH ABOUT ICONS AND LINKS AND PRIVACY ICONS AND LINKS -->
+
+	<footer id="footer">
+		<div id="leftfoot">
+			<div id="advertising"><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></div>
+			<div id="business"><a href="https://www.google.com/services/?fg=1">Business</a></div>
+			<div id="about"><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></div>
+		</div>
+		<div id="rightfoot">
+			<div id="privacy"><a href="https://www.google.com/intl/en/policies/?fg=1"><span id="red">New</span> Privacy &amp; Terms</a></div>
+			<div id="settings"><a href="https://www.google.com/preferences?hl=en">Settings</a></div>
+		</div>
+	</footer>
+		
+	
+
+	
+
+</body>

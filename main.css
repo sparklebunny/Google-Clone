@@ -1,0 +1,343 @@
+
+/* LINK STYLING */
+
+a:link {
+
+	color: #777;
+	text-decoration: none;
+}
+
+a:visited {
+
+	/*color: #609; */
+	color: #777;
+}
+
+
+a:hover {
+
+	font-weight: bold;
+}
+
+
+
+/* BODY DIVS */
+
+body {
+
+	background-color: white;
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+.wrapper {
+
+	min-width: 25%;
+}
+
+
+/*HEADER WITH SIGN IN DIVS */
+
+#head {
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#righthead {
+
+	position: fixed;
+	top: 15px;
+	right: 0;
+}
+
+#you {
+
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+ #gmail {
+
+ 	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+ }
+
+#images {
+
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#apps {
+
+	float: left;	
+	margin-right: 10px;
+	vertical-align: middle;
+	
+}
+
+div#apps a:hover {
+
+	font-weight: bold;
+
+}
+
+#signinbutton  {
+	
+	float: left;
+	margin-right: 40px;
+	margin-top: 3px;
+	border: 1px;
+	border-radius: 2px;
+	height: 30px;
+	width: 71px;
+	background-color: #4285F4;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+
+}
+
+#white {
+
+	color: white;
+	text-decoration: none;
+}
+
+#signinbutton a {
+
+	text-decoration: none;
+
+}
+
+/* CENTER DIVS - LOGO, SEARCH BOX, SEARCH BUTTONS */
+
+#logo {
+	
+	position: relative;
+	top: 200px; 
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;
+
+
+}
+
+#google {
+
+	width: 15em;
+	height: auto; 
+	/* max-width: 25%; */
+}
+
+#searchbox {
+
+	position: relative; 
+	top: 220px;
+	text-align: center;
+	height: 25px;
+	border: 1px solid #E4E4E4;
+	width: 550px;
+	height: 25px;
+	margin: 0 auto; 
+
+}
+
+#mic {
+
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+form {
+	width: 550px;
+	margin: 0 auto;
+}
+
+#field {
+
+	float: left; 
+    width: 550px; 
+    height: 25px; 
+    line-height: 25px;
+    text-indent: 10px; 
+    font-family: arial, sans-serif; 
+    font-size: 1em; 
+    color: #333; 
+    background: #fff; 
+    border: solid 1px #d9d9d9; 
+    border-top: solid 1px #c0c0c0; 
+    border-right: none;
+}
+
+/* #searchbox:focus {
+
+	border: 1px solid black;
+}
+
+input[type="text"] {
+
+	font-size: 12px;
+}
+
+/* input[type="submit"] {
+
+	font-size: 12px;
+
+} */
+
+#searchbuttons {
+
+	position: relative;
+	top: 240px;
+	text-align: center;
+
+}
+
+
+.button {
+
+	font-family: Arial, sans-serif;
+	/*font-weight: bold; */
+	background-color: #EBEBEB;
+	border-radius: 1px;
+	border: 1px solid #D9D9D9;
+	text-align: center;
+	height: 1.4em;
+	padding: 2px 6px;
+	
+}
+
+
+/* TRIED ASSIGNING "BUTTON" ELEMENT BUT MESSED UP POSITIONING AND STYLING */
+
+#googlebutton:hover {
+
+	font-weight: bold;
+	border-bottom: 2px #9BA1A7;
+	text-decoration: none;
+}
+
+#googlebutton {
+
+	display: inline-block;
+	margin: .5em;
+	height: 20px;
+	width: 100px;
+	top: 330px;
+	left: 40%; 
+	line-height: 20px;
+	/* padding-top: 1px;
+	padding-bottom: 1px; */
+} 
+
+#luckybutton {
+
+	display: inline-block;
+	margin: .5em;
+	height: 20px;
+	width: 120px;
+	top: 330px;
+	right: 40%; 
+	line-height: 20px;
+}
+
+
+
+/*  FOOTER DIV WITH ABOUT LINKS AND PRIVACY LINKS */
+
+
+
+
+
+
+#footer {
+
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #EBEBEB;
+	text-align: center;
+	border-top: 1px solid #D9D9D9;
+}
+
+#leftfoot {
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 40px;
+}
+
+#advertising {
+
+	float: left;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	margin-left: 40px;
+}
+
+#business {
+
+	float: left;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	margin-left: 40px;
+
+}
+
+#about {
+
+	float: left;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	margin-left: 40px;
+
+}
+
+#rightfoot {
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	line-height: 40px;
+}
+
+#privacy {
+
+	float: left;
+	bottom: 0;
+	right: 0;
+	text-align: left;
+	margin-right: 40px;
+}
+
+#red {
+
+	color: red;
+}
+
+#settings {
+
+	float: left;
+	bottom: 0;
+	right: 0;
+	text-align: left;
+	margin-right: 40px;
+
+}
+
+
+
