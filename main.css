@@ -85,7 +85,8 @@ body {
 
 	font-weight: bold;
 	box-shadow: 4px 4px 4px DarkGray;
-
+	-moz-box-shadow: 4px 4px 4px DarkGray;
+	-webkit-box-shadow: 4px 4px 4px DarkGray;
 }
 
 #signinbutton  {
