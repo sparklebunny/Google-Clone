@@ -81,9 +81,10 @@ body {
 	
 }
 
-div#apps a:hover {
+#apps:hover {
 
 	font-weight: bold;
+	box-shadow: 4px 4px 4px DarkGray;
 
 }
 
@@ -219,12 +220,15 @@ input[type="text"] {
 
 /* TRIED ASSIGNING "BUTTON" ELEMENT BUT MESSED UP POSITIONING AND STYLING */
 
-#googlebutton:hover {
+#googlebutton:hover { 
 
-	font-weight: bold;
-	border-bottom: 2px #9BA1A7;
-	text-decoration: none;
-}
+	font-weight:bolder;
+	border: solid 1px #CCC;
+	-moz-box-shadow: 3px 3px 0px #999;
+	-webkit-box-shadow: 3px 3px 0px #999;
+	box-shadow: 3px 3px 0px #999;
+
+ }
 
 #googlebutton {
 
